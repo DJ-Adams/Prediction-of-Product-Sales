@@ -47,12 +47,28 @@ There were 8,523 rows and 11 colmns in this dataset.
   
 ## Results
 
-(model and metrics)
--
--
--
--
+### Models and Metrics
 
+- Linear Regression Model (Testing Set):
+  - MAE = 810.408
+  - MSE = 1,210,349.624
+  - RMSE = 1,100.159
+  - R^2 = 0.568
+
+
+
+
+- Random Forest Regressor Model (Testing Set):
+  - MAE = 776.805
+  - MSE = 1,245,831.112
+  - RMSE = 1,116.168
+  - R^2 = 0.555
+    
+- Tuned Random Forest Regressor Model (Testing Set):
+  - MAE = 736.898
+  - MSE = 1,116,035.094
+  - RMSE = 1,056.426
+  - R^2 = 0.602
 
 
 ## Recommendations
